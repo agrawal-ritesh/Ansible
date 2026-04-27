@@ -12,14 +12,14 @@
 ### You write a simple file called Playbooks in Ansible. 
 
 * Example:
-<!--
+```yaml
 - hosts: servers
   tasks:
     - name: Install nginx
       apt:
         name: nginx
         state: present
--->
+```
 
 - Ansible Command:
 ansible-playbook playbook.yml
