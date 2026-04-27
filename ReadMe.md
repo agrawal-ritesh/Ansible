@@ -4,9 +4,9 @@
 
 ### What it actually does.
 
-Install Softwares
-Configure systems
-Deploy applications
-Manage multiple servers
+- Install Softwares
+- Configure systems
+- Deploy applications
+- Manage multiple servers
 
 ### You write a simple file called Playbooks in Ansible. 
