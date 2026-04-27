@@ -10,3 +10,15 @@
 - Manage multiple servers
 
 ### You write a simple file called Playbooks in Ansible. 
+
+* Example:
+
+- hosts: servers
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+
+- Ansible Command:
+ansible-playbook playbook.yml
